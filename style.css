@@ -1,0 +1,37 @@
+.container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 50px;
+  }
+  
+  .row {
+    height: 100px;
+  }
+  
+  .col {
+    height: 100px;
+    width: 100px;
+    float: left;
+    font-size: 100px;   /* when i write inside it it will be in size 100 px ,alighn in center, line hight 100px */
+    text-align: center;
+    line-height: 100px;
+  } 
+
+  .col:hover{
+      background-color: lightgray;
+  }
+  
+  .border-b {
+    border-bottom: 10px solid black;    /*border bottom */
+  }
+  
+  .border-r {
+    border-right: 10px solid black;               /*border right*/
+  }
+  
