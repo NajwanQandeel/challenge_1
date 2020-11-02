@@ -1,2 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <style>
+ .container {
+  width: 400px;
+  height: 400px;
+}
 
+.row {
+  height: 80px;
+}
+
+ .col {
+  height: 80px;
+  width: 80px;
+  float: left;
+  line-height: 80px;
+} 
+
+.border-b {
+  border-bottom: 5px solid black;
+}
+
+.border-r {
+  border-right: 5px solid black;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div class="row border-b">
+          <div class="col border-r"></div>
+          <div class="col border-r"></div>
+          <div class="col"></div>
+        </div>
+        <div class="row border-b">
+          <div class="col border-r"></div>
+          <div class="col border-r"></div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col border-r"></div>
+          <div class="col border-r"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+ 
+
+  <h2 id="win"></h2>
+  <button>RESET Game</button>
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
 
